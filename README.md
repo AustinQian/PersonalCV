@@ -1,5 +1,5 @@
 # Austinetc Personal CV template
-![Status] On
+[Status] On
 
 # Run Project
 ### 1. Clone the project
