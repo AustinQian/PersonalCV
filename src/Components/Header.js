@@ -48,16 +48,16 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a href="https://course.cyberlark.com.au/" target="_blank" rel="noreferrer">
                 Courses
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="http://daigou.cyberlark.com.au/" target="_blank" rel="noreferrer">
                 Shop
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
