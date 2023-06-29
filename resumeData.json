@@ -106,7 +106,7 @@
       },
       {
         "title":"Spring Framework",
-        "description": "Spring framework related basics",
+        "description": "Spring framework related basic knowledges",
         "category": "note",
         "image":"01.png",
         "url":"https://ubunteen2.editorx.io/my-site/post/spring-framework"
@@ -117,13 +117,6 @@
         "category": "note",
         "image":"02.png",
         "url":"https://ubunteen2.editorx.io/my-site/post/cookie-session"
-      },
-      {
-        "title":"Video",
-        "description":"How I passed the AWS Solutions Architect Professional Certification Exam",
-        "category":"Video",
-        "image":"04.png",
-        "url":"https://www.youtube.com/watch?v=qftrfxGou_E"
       }
     ]
   }
