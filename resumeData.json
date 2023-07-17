@@ -58,7 +58,7 @@
     "skillmessage":"Technical Skills",
     "education":[
       {
-        "school":"ongda College of Nanjing University of Posts and Telecommunications",
+        "school":"Tongda College of Nanjing University of Posts and Telecommunications",
         "degree":"Bachelor of Computer Science",
         "graduated":"2019 - 2023",
         "description":"School"
@@ -83,7 +83,7 @@
       },
       {
         "name":"Embeded Software development (C/C++)",
-        "level":"60%"
+        "level":"50%"
       },
       {
         "name":"Leadership & Management",
@@ -117,6 +117,13 @@
         "category": "note",
         "image":"02.png",
         "url":"https://ubunteen2.editorx.io/my-site/post/cookie-session"
+      },
+      {
+        "title":"Airbnb clone",
+        "description": "Work in progress airbnb clone",
+        "category": "Projects",
+        "image":"logo.png",
+        "url":"https://github.com/AustinQian/aircnc"
       }
     ]
   }
