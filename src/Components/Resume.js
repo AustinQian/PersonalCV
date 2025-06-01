@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Slide from "react-reveal";
+import { Slide } from "react-awesome-reveal";
 
 class Resume extends Component {
   getRandomColor() {
@@ -28,15 +28,15 @@ class Resume extends Component {
       );
     });
 
-    const work = this.props.data.work.map(function (work) {
+    const techstack = this.props.data.techstack.map(function (techstack) {
       return (
-        <div key={work.company}>
-          <h3>{work.company}</h3>
+        <div key={techstack.title}>
+          <h3>{techstack.title}</h3>
           <p className="info">
-            {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+            {techstack.info} 
+            {techstack.languages}
           </p>
-          <p>{work.description}</p>
+          <p>{techstack.description}</p>
         </div>
       );
     });
@@ -56,7 +56,7 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-        <Slide left duration={1300}>
+        <Slide direction="left" duration={1300} triggerOnce>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -72,19 +72,19 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
-          <div className="row work">
+        <Slide direction="left" duration={1300} triggerOnce>
+          <div className="row techstack">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Tech Stack</span>
               </h1>
             </div>
 
-            <div className="nine columns main-col">{work}</div>
+            <div className="nine columns main-col">{techstack}</div>
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
+        <Slide direction="left" duration={1300} triggerOnce>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>

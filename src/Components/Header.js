@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
-import Fade from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 class Header extends Component {
   render() {
@@ -47,30 +47,19 @@ class Header extends Component {
                 Works
               </a>
             </li>
-
-            {/* <li>
-              <a href="https://course.cyberlark.com.au/" target="_blank" rel="noreferrer">
-                Courses
-              </a>
-            </li> */}
-            {/* <li>
-              <a href="http://daigou.cyberlark.com.au/" target="_blank" rel="noreferrer">
-                Shop
-              </a>
-            </li> */}
           </ul>
         </nav>
 
         <div className="row banner">
           <div className="banner-text">
-            <Fade bottom>
+            <Fade direction="up" triggerOnce>
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
-            <Fade bottom duration={1200}>
+            <Fade direction="up" duration={1200} triggerOnce>
               <h3>{description}.</h3>
             </Fade>
             <hr />
-            <Fade bottom duration={2000}>
+            <Fade direction="up" duration={2000} triggerOnce>
               <ul className="social">
                 <a href={project} className="button btn project-btn">
                   <i className="fa fa-book"></i>Project

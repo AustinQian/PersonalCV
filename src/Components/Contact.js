@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Fade, Slide } from "react-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 
 class Contact extends Component {
   render() {
@@ -13,7 +13,7 @@ class Contact extends Component {
 
     return (
       <section id="contact">
-        <Fade bottom duration={1000}>
+        <Fade direction="up" duration={1000} triggerOnce>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
@@ -28,7 +28,7 @@ class Contact extends Component {
         </Fade>
 
         <div className="row">
-          <Slide left duration={1000}>
+          <Slide direction="left" duration={1000} triggerOnce>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -101,7 +101,7 @@ class Contact extends Component {
             </div>
           </Slide>
 
-          <Slide right duration={1000}>
+          <Slide direction="right" duration={1000} triggerOnce>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>

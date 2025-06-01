@@ -2,7 +2,6 @@
   "main": {
     "name":"Yefan Qian",
     "description":"Passionate about learning technology and sharing knowledge",
-    "image":"profile.jpg",
     "bio":"My name is Yefan, a student learning Computer Science.",
     "contactmessage":"Thank you for your feedback.",
     "email": "yefanqian2001@gmail.com",
@@ -26,11 +25,6 @@
         "name":"github",
         "url":"https://github.com/AustinQian",
         "className":"Austin-github"
-      },
-      {
-        "name":"youtube-chinese",
-        "url":"https://www.youtube.com/channel/UCArZ1Su6EjdiEA0qrx1Pfqg",
-        "className":"fa fa-youtube-square"
       },
       {
         "name":"linkedin",
