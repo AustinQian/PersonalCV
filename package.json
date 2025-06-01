@@ -2,7 +2,7 @@
   "name": "austin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://austinqian.github.io/PersonalCV/",
+  "homepage": "./",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@testing-library/jest-dom": "^6.6.3",
