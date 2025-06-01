@@ -1,28 +1,18 @@
 {
   "main": {
-    "name":"Austin Qian",
+    "name":"Yefan Qian",
     "description":"Passionate about learning technology and sharing knowledge",
     "image":"profile.jpg",
-    "bio":"My name is Austin, a student learning Computer Science.",
+    "bio":"My name is Yefan, a student learning Computer Science.",
     "contactmessage":"Thank you for your feedback.",
-    "email": "ubunteen2@gmail.com",
-    "phone": "(+86) 18550771455",
+    "email": "yefanqian2001@gmail.com",
+    "phone": "7059191821",
     "github":"https://github.com/AustinQian",
     "project":"https://github.com/AustinQian",
     "address":{
-      "line1":"Address: Jinghai St.",
-      "line2":"City: ChangShu",
-      "line3":"Country: China"
-    },
-    "youtube":{
-      "english": {
-        "name": "David on Cloud",
-        "url": "https://www.youtube.com/channel/UCykMC_fzatQPcbun0VYG3YA"
-      },
-      "chinese": {
-        "name": "澳洲程序员大卫",
-        "url":"https://www.youtube.com/@aus-david"
-      }
+      "line1":"Address: 81 Brookmill Blvd",
+      "line2":"City: Scarborough",
+      "line3":"Country: Canada"
     },
     "website": "https://ubunteen2.editorx.io/my-site/blog",
     "resumedownload":"./images/resume.pdf",
@@ -44,13 +34,8 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com",
+        "url":"https://www.linkedin.com/in/yefanqian/",
         "className":"fa fa-linkedin-square"
-      },
-      {
-        "name":"toutiao",
-        "url":"https://www.ixigua.com/home/1521358670931997/",
-        "className":"fa fa-weibo"
       }
     ]
   },
